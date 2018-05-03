@@ -18,8 +18,8 @@ matrix:
 
 script:
   - cargo build --examples
-  - cargo test --features ctrl_c_example_test
   - rustdoc --test README.md -L target/debug/deps
+  - cargo test --features ctrl_c_example_test
 
 env:
   global:
