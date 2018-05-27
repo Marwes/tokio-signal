@@ -15,7 +15,7 @@ First, add this to your `Cargo.toml`:
 tokio-signal = "0.1"
 ```
 
-Next you can use this in conjunction with the `tokio-core` and `futures` crates:
+Next you can use this in conjunction with the `tokio` and `futures` crates:
 
 ```rust,no_run
 extern crate futures;
@@ -54,5 +54,5 @@ at your option.
 ### Contribution
 
 Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in Serde by you, as defined in the Apache-2.0 license, shall be
+for inclusion in tokio-signal by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
